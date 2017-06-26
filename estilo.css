@@ -1,0 +1,16 @@
+table{
+    width:100%;
+    border-collapse: collapse;
+}
+
+th{
+    background: LIGHTBLUE;
+    height: 30px;
+    color: black;
+    text-align: center;
+}
+
+td{
+    text-align: center;
+    background: lightpink;
+}
