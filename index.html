@@ -3,24 +3,27 @@
 <head>
 <meta charset="UTF-8">
 <title>Usuarios</title>
-<link rel="stylesheet" type="text/css" href="estilo.css">
-<script src = "jquery.min.js"></script>
-<script src = "conector.js"></script>
+    <script src="jquery.min.js"></script>
+    <script src="guardar.js"></script>
 </head>
-
 <body>
-<table id="usuarios_table"> 
-    <tr>
-        <th>id</th>
-        <th>nombre</th>
-        <th>apellido1</th>
-        <th>apellido2</th>
-        <th>correo</th>
-        <th>password</th>
-        <th>tipo</th>
-    </tr>
-</table> 
+    <form id="usuarios">
+        Nombre<br>
+        <input type="text" name="nombre"><br>
+        Apellido1<br>
+        <input type="text" name="apellido1"><br>
+        Apellido2<br>
+        <input type="text" name="apellido2"><br>
+        Correo<br>
+        <input type="text" name="correo"><br>
+        Contraseña<br>
+        <input type="text" name="password"><br>
+        Tipo<br>
+        <input type="text" name="tipo"><br><br>
+        <input type="button" id="enviar" value="Guardar">
+    </form>
     
-</body>
+    
+</body>        
 
 </html>
